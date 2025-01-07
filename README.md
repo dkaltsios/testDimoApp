@@ -1,1 +1,2 @@
 Lecture 9 stayed at slide 34
+DO NOT FORGET TO DOWNLOAD MONGODB AND MONGOSH
