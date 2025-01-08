@@ -13,6 +13,10 @@ const productSchema = new mongoose.Schema({
     category: {
         type: String,
         enum: ['fruit', 'vegetable', 'dairy']
+    },
+    farm: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Farm'
     }
 })
 
